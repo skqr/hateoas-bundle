@@ -27,24 +27,20 @@
         {
             "type": "vcs",
             "url": "https://github.com/skqr/ReverseRegex.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/skqr/hateoas.git"
         }
     ],
     "require": {
         "php": ">=5.4.0",
         "symfony/framework-bundle": "*",
-        "symfony/doctrine-bridge": "*",
-        "doctrine/doctrine-bundle": "*",
-        "doctrine/orm": "*",
-        "justinrainbow/json-schema": "*",
-        "rhumsaa/uuid": "*",
-        "skqr/php-raml-parser": "dev-master",
-        "predis/predis": "*"
+        "gointegro/hateoas": "dev-feature/split-lib",
+        "skqr/php-raml-parser": "dev-master"
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
-        "phpdocumentor/phpdocumentor": "*",
-        "codeception/codeception": "*",
-        "skqr/reverse-regex": "dev-master"
+        "phpdocumentor/phpdocumentor": "*"
     },
     "autoload": {
         "psr-0": { "GoIntegro\\Bundle\\HateoasBundle": "" }
