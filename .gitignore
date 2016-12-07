@@ -1,6 +1,12 @@
 # Git
 !.gitignore
 
+# Travis CI
+!.travis.yml
+
+# Code Climate
+!.codeclimate.yml
+
 # Vim, nano, etc.
 *~
 .*

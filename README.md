@@ -1,8 +1,8 @@
 # [GOintegro](http://www.gointegro.com/en/) / HATEOAS (bundle)
 
-[![Build Status](https://travis-ci.org/GoIntegro/hateoas-bundle.svg?branch=master)](https://travis-ci.org/GoIntegro/hateoas-bundle) [![Code Climate](https://codeclimate.com/github/GoIntegro/hateoas-bundle/badges/gpa.svg)](https://codeclimate.com/github/GoIntegro/hateoas-bundle)
+[![Build Status](https://travis-ci.org/skqr/hateoas-bundle.svg?branch=master)](https://travis-ci.org/skqr/hateoas-bundle) [![Code Climate](https://codeclimate.com/github/skqr/hateoas-bundle/badges/gpa.svg)](https://codeclimate.com/github/skqr/hateoas-bundle)
 
-This is a Symfony 2 bundle for the [GOintegro HATEOAS lib](https://github.com/gointegro/hateoas) that uses a Doctrine 2 entity map and a [RAML](http://raml.org/) API definition to conjure a [HATEOAS](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) API, following the [JSON-API](http://jsonapi.org/) specification.
+This is a Symfony 2 bundle for the [GOintegro HATEOAS lib](https://github.com/skqr/hateoas) that uses a Doctrine 2 entity map and a [RAML](http://raml.org/) API definition to conjure a [HATEOAS](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) API, following the [JSON-API](http://jsonapi.org/) specification.
 
 You don't get scaffolds. You get a working API.
 
@@ -22,7 +22,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```bash
-$ composer require gointegro/hateoas-bundle
+$ composer require skqr/hateoas-bundle
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -76,4 +76,4 @@ ___
 
 # Usage
 
-Check out [the library docs](https://github.com/GoIntegro/hateoas/) for more info.
+Check out [the library docs](https://github.com/skqr/hateoas/) for more info.
