@@ -30,7 +30,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "phpdocumentor/phpdocumentor": "*",
+        "phpdocumentor/phpdocumentor": "2.*",
         "codeception/codeception": "2.2.*",
         "codeclimate/php-test-reporter": "dev-master"
     },
