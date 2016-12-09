@@ -32,7 +32,7 @@ class EntityCompilerPass implements CompilerPassInterface
         foreach (self::$services as $service) {
             $name = $tag = self::SERVICE_PREFIX . $service;
 
-            if (!$container->hasDefinition($name)) continue;
+            if (!$container->hasDefinition($name)) return;
 
             $definition = $container->getDefinition($name);
             $taggedServices = $container->findTaggedServiceIds($tag);
