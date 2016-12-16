@@ -38,6 +38,7 @@
         "psr-0": { "GoIntegro\\Bundle\\HateoasBundle": "" }
     },
     "target-dir": "GoIntegro/Bundle/HateoasBundle",
+    "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "dev-master": "0.9.x-dev"
