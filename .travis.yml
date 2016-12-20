@@ -18,9 +18,10 @@ addons:
     repo_token: 216e591569710aa2dddeca4ca364a7385a6a875926057062a052466a3cc62da8
 
 before_script:
+  - which composer
   - phpenv config-rm xdebug.ini
   - composer install -vvv --prefer-source
-  - phpenv config-add xdebug.ini
+  # - phpenv config-add xdebug.ini
 
 script: phpunit --coverage-clover build/logs/clover.xml
 
