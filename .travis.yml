@@ -19,9 +19,7 @@ addons:
 
 before_script:
   # - phpenv config-rm xdebug.ini
-  - composer install
-  # - composer self-update
-  # - composer update --dev
+  - composer install -vvv --prefer-source
 
 script: phpunit --coverage-clover build/logs/clover.xml
 
