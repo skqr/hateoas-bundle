@@ -18,17 +18,9 @@ addons:
     repo_token: 216e591569710aa2dddeca4ca364a7385a6a875926057062a052466a3cc62da8
 
 before_script:
-  - hostname
-  - whoami
-  - pwd
-  - ls -la
-  - phpenv config-rm xdebug.ini
+  # - phpenv config-rm xdebug.ini
   - wget https://raw.githubusercontent.com/composer/getcomposer.org/master/web/installer -O - -q | php -- --quiet
-  - ls -la
   - php -d memory_limit=-1 ./composer.phar install -vvv
-  # - composer install -vvv --prefer-source
-  # - php /home/travis/.phpenv/shims/composer install -vvv --prefer-source
-  # - phpenv config-add xdebug.ini
 
 script: phpunit --coverage-clover build/logs/clover.xml
 
