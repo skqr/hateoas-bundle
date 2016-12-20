@@ -20,7 +20,8 @@ addons:
 before_script:
   - which composer
   - phpenv config-rm xdebug.ini
-  - composer install -vvv --prefer-source
+  # - composer install -vvv --prefer-source
+  - php /home/travis/.phpenv/shims/composer install -vvv --prefer-source
   # - phpenv config-add xdebug.ini
 
 script: phpunit --coverage-clover build/logs/clover.xml
